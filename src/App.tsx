@@ -4,6 +4,7 @@ import Alert from "./components/Alert";
 import Button from "./components/button";
 import { useState } from "react";
 import Hook from "./components/hookConcept";
+import Parent from "./UseCallback/parent";
 
 
 
@@ -26,6 +27,7 @@ function App (){
     <Button color ='success' onclick={ () => setAlertVisiblity(true) } children="button"/>
     <ListGroup list={items} h='RICH CITIES' onSelectItem={handleSelectItem}/>
     <Hook></Hook>
+    <Parent></Parent>
     </>
   );
 }
