@@ -23,7 +23,7 @@ function App (){
   return (
     <>
     { alertVisibility === true && <Alert onBand={ () => setAlertVisiblity(false) }><span>hello world</span></Alert>}
-    <Button color ='success' onclick={ () => setAlertVisiblity(true) } children='button'/>
+    <Button color ='success' onclick={ () => setAlertVisiblity(true) } children="button"/>
     <ListGroup list={items} h='RICH CITIES' onSelectItem={handleSelectItem}/>
     <Hook></Hook>
     </>
