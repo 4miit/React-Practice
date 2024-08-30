@@ -17,7 +17,7 @@ export default function Parent() {
 
   return (
     <>
-      <h1 style={{ textAlign: "center" }}> UseCallBack</h1>
+      <h1 style={{ textAlign: "center" }}> UseCallback</h1>
       <div style={color}>
         <input
           type="number"
