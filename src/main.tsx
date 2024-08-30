@@ -7,7 +7,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-     <App/>git push --set-upstream origin main
+     <App/>
      
   </React.StrictMode>,
 )
