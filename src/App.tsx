@@ -5,6 +5,7 @@ import Button from "./components/button";
 import { useState } from "react";
 import Hook from "./components/hookConcept";
 import Parent from "./UseCallback/parent";
+import Parent2 from "./UseContext/parent";
 
 
 
@@ -28,6 +29,7 @@ function App (){
     <ListGroup list={items} h='RICH CITIES' onSelectItem={handleSelectItem}/>
     <Hook></Hook>
     <Parent></Parent>
+    <Parent2/>
     </>
   );
 }
