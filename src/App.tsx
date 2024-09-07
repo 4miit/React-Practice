@@ -6,6 +6,7 @@ import { useState } from "react";
 import Hook from "./components/hookConcept";
 import Parent from "./UseCallback/parent";
 import Parent2 from "./UseContext/parent";
+import App2 from "./App2";
 
 
 
@@ -30,6 +31,7 @@ function App (){
     <Hook></Hook>
     <Parent></Parent>
     <Parent2/>
+    <App2></App2>
     </>
   );
 }
