@@ -1,6 +1,8 @@
 import { useSelector, useDispatch } from "react-redux";
 import { decrement, increment, multiply, divide } from "./Counter/CounterSlice";
 import { RootState } from "./store"; // Import RootState from your store
+import Other from "./Other";
+import css from './x.module.css'
 
 export function Counter() {
   // Define the type for the selector using RootState
@@ -17,28 +19,29 @@ export function Counter() {
           style={{ margin: "0px 120px" }}
           onClick={() => dispatch(increment())}
         >
-          Increment
+          Decrement
         </button>
-        <span>{count}</span>
+        <span className={css['y']}>{count}</span>
         <button
           style={{ margin: "0px 120px" }}
           onClick={() => dispatch(decrement())}
         >
-          Decrement
+          Increment
         </button>
         <button
           style={{ margin: "0px 120px" }}
           onClick={() => dispatch(divide())}
         >
-          Multiply
+          Divide
         </button>
         <button
           onClick={() => dispatch(multiply())}
           style={{ margin: "0px 120px" }}
         >
-          Divide
+          Multiply
         </button>
       </div>
+      <Other/>
     </div>
   );
 }
